@@ -2,7 +2,7 @@
 
 This is a sample site about cats where you are encouraged to add a service worker and explore various caching methods.
 
-Using "(The Offline Cookbook)[https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook]" by Jake Archibald is a good place to start.
+Using "[The Offline Cookbook](https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook)" by Jake Archibald is a good place to start.
 
 ## Getting Started
 ```
