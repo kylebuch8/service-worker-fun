@@ -1,0 +1,21 @@
+{
+  "name": "service-worker-fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@patternfly/pfe-band": "^1.0.0-prerelease.52",
+    "@patternfly/pfe-card": "^1.0.0-prerelease.52",
+    "@patternfly/pfe-styles": "^1.0.0-prerelease.52"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.10",
+    "compression": "^1.7.4",
+    "gulp": "^4.0.2"
+  }
+}
