@@ -10,7 +10,7 @@ npm install && npm start
 ```
 
 This should start a local web server and serve a page that looks like this.
-![Screenshot of Wonderful World of Cats homepage](../../master/images/wonderful-world-of-cats.pngwonderful-world-of-cats.png?raw=true)
+![Screenshot of Wonderful World of Cats homepage](../blob/master/images/wonderful-world-of-cats.pngwonderful-world-of-cats.png?raw=true)
 
 ## Register the Service Worker
 Go to the bottom of `main.js` and uncomment the following
