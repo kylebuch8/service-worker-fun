@@ -24,6 +24,7 @@ Go to the bottom of `main.js` and uncomment the following
 // });
 ```
 
+
 Then go into the `service-worker.js` file and begin adding a caching strategy.
 
 ## Stop the Service Worker
