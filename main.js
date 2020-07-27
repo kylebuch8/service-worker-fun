@@ -79,10 +79,10 @@ class CatFact extends HTMLElement {
 window.customElements.define("cat-fact", CatFact);
 
 // register the service worker
-// window.addEventListener("load", () => {
-//   navigator.serviceWorker.register("/service-worker.js")
-//     .then(registration => {
-//       console.log("Service Worker registation was successful", registration);
-//     })
-//     .catch(error => console.log("Service Worker registration failed", error));
-// });
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/service-worker.js")
+    .then(registration => {
+      console.log("Service Worker registation was successful", registration);
+    })
+    .catch(error => console.log("Service Worker registration failed", error));
+}
